@@ -18,3 +18,5 @@ print(num1 < num2)   # Output: True
 print(num1 > num2)   # Output: False
 print(num1 >= num2)  # Output: False
 print(num1 <= num2)  # Output: True
+
+
