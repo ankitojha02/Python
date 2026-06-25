@@ -20,3 +20,5 @@ friends.remove("Charlie")  # Remove a friend from the list
 print(friends)  # Output: ['Alice', 'Bob', 'David', 'Eve', 'Frank']
 friends.pop()  # Remove the last friend from the list
 print(friends)  # Output: ['Alice', 'Bob', 'David', 'Eve']
+friends.insert(2, "Grace")  # Insert a new friend at index 2
+print(friends)  # Output: ['Alice', 'Bob', 'Grace', 'David', 'Eve'] 
