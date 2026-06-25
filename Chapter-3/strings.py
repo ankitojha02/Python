@@ -28,3 +28,4 @@ print(a.startswith("Hello"))  # Output: True
 
 name = "Alice"
 print(f"Hello, {name}!")  # Output: Hello, Alice! (using f-string for string formatting
+#note : strings are immutable in python, meaning once a string is created, it cannot be changed. Any operation that modifies a string will create a new string instead of modifying the original one.
