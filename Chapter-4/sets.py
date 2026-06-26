@@ -15,3 +15,7 @@ print(s1)  # Output: {1, 5, 23, 455, "Ankit", 100}
 print(len(s1))  # Output: 6
 print(1 in s1)  # Output: True
 s1.remove(5)  # Remove an element from the set
+s.union(s1)  # Union of two sets
+print(s.union(s1))  # Output: {1, 2, 3, 5, 23, 455, "Ankit", 100}
+s.intersection(s1)  # Intersection of two sets
+print(s.intersection(s1))  # Output: {1}
