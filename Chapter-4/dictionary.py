@@ -19,3 +19,5 @@ print(marks)  # Output: {'A': 95, 'B': 80, 'C': 70, 'list': [1, 2, 3]}
 print(marks.keys())  # Output: dict_keys(['A', 'B', 'C', 'list'])
 print(marks.values())  # Output: dict_values([95, 80, 70, [1, 2, 3]])
 print(marks.items())  # Output: dict_items([('A', 95), ('B', 80), ('C', 70), ('list', [1, 2, 3])])
+marks.update({"C": 75})  # Update the value of key "C"
+print(marks)  # Output: {'A': 95, 'B': 80, 'C': 75, 'list': [1, 2, 3]}
