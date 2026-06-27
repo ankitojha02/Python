@@ -5,3 +5,11 @@ if ( a % 2 == 0) :
 else :
     print("Odd number")
 
+# Mutiple conditions
+b = int(input("Enter a number: "))
+if ( b > 0) :
+    print("Positive number")
+elif ( b < 0) :
+    print("Negative number")
+else :
+    print("Zero")
